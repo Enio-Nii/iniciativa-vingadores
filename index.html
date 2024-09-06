@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto iniciativa vigadores - </title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;700&display=swap" rel="stylesheet" />
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="stylesheet" href="./src/css/responsivo.css">
+</head>
+
+<body>
+    <header class="cabecalho">
+        <img class="logo" src="./src/imagens/logo vigadores.png" alt="Logo vigadores">
+    </header>
+
+    <main class="selecao-de-personagens">
+        <section class="personagens">
+            <h1 class="titulo"> Selecione um personagem </h1>
+            <ul class="lista-de-personagens">
+                <li class="personagem selecionado" id="capitao" data-name="Capitão Amarica"
+                    data-description="Conhecido como Steve Rogers, um jovem franzino que atinge o pico da perfeição humana após aplicar um soro experimental com o intuito de ajudar os Estados Unidos contra as potências do Eixo. Perto do fim da Segunda Guerra, ficou preso no gelo e sobreviveu em animação suspensa até que foi revivido nos dias atuais.">
+                    <img src="./src/imagens/card-capitao.jpg" alt="Personagem Capitao Amaria.">
+                </li>
+                <li class="personagem" id="hulk" data-name="Hulk"
+                    data-description="conhecido com Bruce, ele conhece o General Ross, o oficial da Força Aérea no comando da base, e sua filha Betty. Bruce e Betty Ross se apaixonaram um pelo outro. Bruce desenhou e supervisionou a construção da Bomba Gama ou Bomba-G, uma arma nuclear, possuindo alto rendimento de radiação gama.">
+                    <img src="./src/imagens/card-hulk.jpg" alt="Personagem Hulk.">
+                </li>
+                
+                </li>
+
+                <li class="personagem" id="Thor" data-name="Thor"
+                    data-description="Thor é virtualmente um deus de outra realidade, possuindo vastos poderes. Desta maneira, possui uma enorme força e velocidade sobre-humanas. Também é capaz de controlar os elementos da tempestade.">
+                    <img src="./src/imagens/card-thor.jpg" alt="Personagem Thor.">
+                </li>
+
+                <li class="personagem" id="viúva" data-name="Viúva Negra"
+                    data-description="Criada por Stan Lee, Don Rico e Don Heck, Natasha é apresentada como uma espiã soviética, enviada aos Estados Unidos com a missão de roubar e sabotar planos do governo e de Tony Stark">
+                    <img src="./src/imagens/card-viuva .webp" alt="Personagem Viúva Negra.">
+                </li>
+
+                <li class="personagem" id="homem" data-name="Homem de Ferro"
+                    data-description="Tony Stark teve uma relação difícil com seu pai, sendo enviado aos seis anos de idade para um internato, onde ele iria em breve começar a experimentar a convivência com mais pessoas.">
+                    <img src="./src/imagens/card-homem.jpg" alt="Personagem Homen de Ferro.">
+                </li>
+
+                <li class="personagem" id="gaviao" data-name="Gavião "
+                    data-description="Iniciou sua carreira como vilão do Homem de Ferro e nessa época se envolveu com a Viúva Negra, mas o relacionamento fracassou. Posteriormente se regenerou e entrou para os Vingadores">
+                    <img src="./src/imagens/card-gaviao.jpg" alt="Personagem Gavião.">
+                 </li>
+
+               
+            </ul>
+        </section>
+        <section class="personagem-selecionado">
+            <img class="personagem-grande" src="./src/imagens/card-capitao.png" alt="Personagem Selecionado">
+
+            <div class="informacoes-personagem">
+                <h2 class="nome-personagem" id="nome-personagem">Capitão Amarica</h2>
+                <p class="descricao-personagem" id="descricao-personagem">
+                    Conhecido como Steve Rogers, um jovem franzino que atinge o pico da perfeição humana após aplicar um soro experimental com o intuito de ajudar os Estados Unidos contra as potências do Eixo. Perto do fim da Segunda Guerra, ficou preso no gelo e sobreviveu em animação suspensa até que foi revivido nos dias atuais.
+                </p>
+            </div>
+        </section>
+    </main>
+    <script src="./src/js/index.js"></script>
+</body>
+
+</html>
